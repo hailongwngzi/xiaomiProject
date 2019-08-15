@@ -21,6 +21,9 @@
 	margin: 0 auto;
 	text-align: center;
 }
+.main_warped{
+	box-shadow: 0 0 7px #888;
+}
 .main_warp h2{
 	display: inline-block;
 	font-size: 18px;
@@ -59,7 +62,7 @@
 	color: #000;
 	background: #C3C8CD;
 	position: relative;
-	z-index:-100;
+	z-index:1;
 }
 #login_warp a{
 	font-size: 16px;
@@ -70,6 +73,7 @@
 	font-style: normal;
 	margin-left: 20px;
 	color: #3C3C3C;
+	cursor:pointer;
 }
 /*详细*/
 .particular_warp{

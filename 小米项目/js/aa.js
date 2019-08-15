@@ -1,6 +1,6 @@
 $(function(){
-	var list = [
-		/*{
+	/*var list = [
+		{
 			id:1,
 			src:'images/1.jpg',
 			name:"Redmi充电宝 20000mAh 白色 ",
@@ -31,16 +31,8 @@ $(function(){
 			price:139,
 			sum:1,
 			count:139
-		},
-		{
-			id:5,
-			src:'images/5.jpg',
-			name:"小米手环",
-			price:139,
-			sum:1,
-			count:139
-		}*/
-	]
+		}
+	]*/
 	//写入到本地存储内
 	var init = {
 		setStorage : function(json){
@@ -64,7 +56,7 @@ $(function(){
 //封装一个函数，用来渲染页面
 	function refresh(){
 		var main = $(".main")[0];//将jq对象转为dom对象；
-		 	var list = init.getStorage();
+		var list = init.getStorage();
 	//var main = document.querySelector(".main")
 		var mainContent = '';
 		mainContent = `

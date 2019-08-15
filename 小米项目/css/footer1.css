@@ -94,12 +94,14 @@
     height: 28px;
     border:1px solid #fc6a00;
     margin-top:10px;
+    padding-left:10px;
 }
 .relationship p:nth-child(4) a{
     float:right;
     display: inline-block;
     line-height: 28px;
     color:#fc6a00;
+    margin-right:15px;
 }
 .relationship p:nth-child(4):hover{
     background:#ff6801;
