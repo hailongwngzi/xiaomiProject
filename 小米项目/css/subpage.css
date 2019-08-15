@@ -1,0 +1,26 @@
+.banner{
+	width: 2560px;
+	height: 620px;
+	position: absolute;
+	
+}
+.banner li img{
+	width: 2560px;
+	height: 620px;
+	/*position:absolute;
+	top: 0;
+	left: 0;*/
+	
+}
+.banner .aa{
+	float: right;
+	
+	
+}
+.banner .bb {
+	float: left;
+	position:absolute;
+	top: 0;
+	left: 0;
+	display: none;	
+}

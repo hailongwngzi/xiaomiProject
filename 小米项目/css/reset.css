@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img ,figure,figcaption,fieldset {
+	margin:0;	/* 外边距归零 */
+	padding:0;	/* 内边距归零 */
+}
+body,html{
+	font:12px "微软雅黑",Arial;	/* 设置网页内字号及字体 */
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:normal;			/* 清除加粗 */
+}
+i,em{
+	font-style:normal;			/* 清除倾斜 */
+}
+li{
+	list-style:none;			/* 清除项目符号 */
+}
+a{
+	text-decoration:none;		/* 清除下划线 */
+	color:#6d6d6d;
+}	
+input{
+	outline:none;				/* 清除input选中后蓝色框 */
+}
+
+/* 清除高度塌陷 */
+.clearfix{
+	*zoom:1;	
+}
+.clearfix:after{
+	content:' ';
+	display:block;
+	height:0;
+	overflow:hidden;
+	clear:both;	
+}

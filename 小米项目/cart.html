@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>小米购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
+		<link rel="stylesheet" type="text/css" href="css/cart.css" />
+		<script src = "./jquery1.12.4.js"></script>
+		<script src="js/aa.js"></script>
+	</head>
+	<body>
+		<div id="head">
+			<div class="logo container">
+				<h1><a href="./首页.html">小米</a></h1>
+				<h2>我的购物车</h2>
+				<span>温馨提示：产品是否购买成功，以最终下单为准哦，请尽快结算</span>
+				<ul>
+					<li><a href="./登陆.html">登陆 | </a></li>
+					<li><a href="./注册.html">&nbsp;注册</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="main_wrap">
+			<div class="main container">
+				<!--<table border="0" cellspacing="0" cellpadding="0">
+					<tr class="topic">
+						<th>全选</th>
+						<th></th>
+						<th>商品名称</th>
+						<th>单价</th>
+						<th>数量</th>
+						<th>小计</th>
+						<th>操作</th>
+					</tr>
+					<tr class="content">
+						<td></td>
+						<td><img src="images/1.jpg"/></td>
+						<td> Redmi充电宝 20000mAh 白色 </td>
+						<td>99元</td>
+						<td>
+							<div class="btn">
+								<a href=" Javascript:;"> - </a>
+								<span> 1 </span>
+								<a href="Javascript:;"> + </a>
+							</div>
+						</td>
+						<td>99元</td>
+						<td> X </td>
+					</tr>
+					<tr class="content">
+						<td></td>
+						<td><img src="images/7.jpg"/></td>
+						<td>小米手环 3 </td>
+						<td>139元</td>
+						<td>
+							<div class="btn">
+								<a href=" Javascript:;"> - </a>
+								<span> 1 </span>
+								<a href="Javascript:;"> + </a>
+							</div>
+						</td>
+						<td>139元</td>
+						<td> X </td>
+					</tr>
+				</table>-->
+			</div>
+			<div class="continue1 container">
+				<ul>
+					<li>继续购物 | </li>
+					<li>&nbsp;共 <span><i>   </i> 件商品，已选择 </span><i> 2 </i>件</li>
+				</ul>
+				<div class="con_right">
+					<p>合计 : <span> 238 </span>元</p>
+					<p><a href="./首页.html">去结算</a></p>
+				</div>
+			</div>
+			<div class="other container">
+				<h2><span></span><span>买购物车商品中的人还买了</span><span></span></h2>
+				<ul class="pic_list container">
+					<li>
+						<dl>
+							<dt><img src="images/1.jpg" alt="" /></dt>	
+							<dd> Redmi充电宝 10000mAh </dd>
+							<dd>59元</dd>
+							<dd>1252人好评</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><img src="images/2.jpg" alt="" /></dt>	
+							<dd> Redmi充电宝 10000mAh </dd>
+							<dd>59元</dd>
+							<dd>1252人好评</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><img src="images/3.jpg" alt="" /></dt>	
+							<dd> Redmi充电宝 10000mAh </dd>
+							<dd>59元</dd>
+							<dd>1252人好评</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><img src="images/4.jpg" alt="" /></dt>	
+							<dd> Redmi充电宝 10000mAh </dd>
+							<dd>59元</dd>
+							<dd>1252人好评</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><img src="images/5.jpg" alt="" /></dt>	
+							<dd> Redmi充电宝 10000mAh </dd>
+							<dd>59元</dd>
+							<dd>1252人好评</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><img src="images/6.jpg" alt="" /></dt>	
+							<dd> Redmi充电宝 10000mAh </dd>
+							<dd>59元</dd>
+							<dd>1252人好评</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><img src="images/7.jpg" alt="" /></dt>	
+							<dd> Redmi充电宝 10000mAh </dd>
+							<dd>59元</dd>
+							<dd>1252人好评</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><img src="images/8.jpg" alt="" /></dt>	
+							<dd> Redmi充电宝 10000mAh </dd>
+							<dd>59元</dd>
+							<dd>1252人好评</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><img src="images/9.jpg" alt="" /></dt>	
+							<dd> Redmi充电宝 10000mAh </dd>
+							<dd>59元</dd>
+							<dd>1252人好评</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt><img src="images/2.jpg" alt="" /></dt>	
+							<dd> Redmi充电宝 10000mAh </dd>
+							<dd>59元</dd>
+							<dd>1252人好评</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<footer id="foot_information">
+                <section class="foot_infor container">
+                    <section class="foot_top">
+                        <ul>
+                            <li><a href="#"><i class="iconfont icon-banshou"></i>预约维修服务</a></li>
+                            <li><a href="#"><i class="iconfont icon-7tian"></i>7天无理由退货</a></li>
+                            <li><a href="#"><i class="iconfont icon-tian"></i>十五天免费换货</a></li>
+                            <li><a href="#"><i class="iconfont icon-liwuhedianjitai"></i>满100元包邮</a></li>
+                            <li><a href="#"><i class="iconfont icon-location"></i>520余家售后网点</a></li>
+                        </ul>
+                    </section>
+                    <section class="information_list">
+                        <ul>
+                            <li><a href="#">帮助中心</a></li>
+                            <li><a href="#">账户管理</a></li>
+                            <li><a href="#">购物指南</a></li>
+                            <li><a href="#">订单操作</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">服务支持</a></li>
+                            <li><a href="#">售后政策</a></li>
+                            <li><a href="#">自助服务</a></li>
+                            <li><a href="#">相关下载</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">线下门店</a></li>
+                            <li><a href="#">小米之家</a></li>
+                            <li><a href="#">服务网点</a></li>
+                            <li><a href="#">零售网点</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">关于小米</a></li>
+                            <li><a href="#">了解小米</a></li>
+                            <li><a href="#">加入小米</a></li>
+                            <li><a href="#">联系我们</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">关注我们</a></li>
+                            <li><a href="#">新浪微博</a></li>
+                            <li><a href="#">小米部落</a></li>
+                            <li><a href="#">官方微信</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">特色服务</a></li>
+                            <li><a href="#">F 码通道</a></li>
+                            <li><a href="#">礼物码</a></li>
+                            <li><a href="#">防伪查询</a></li>
+                        </ul>
+                    </section>
+                    <section class="relation">
+                        <section class="relationship">
+                            <p>400-100-5678</p>
+                            <p>周一至周日 8:00-18:00</p>
+                            <p>（仅収市话费）</p>
+                            <p><span class="message sprite_map"></span><a href="#">24小时在线客服</a></p>
+                        </section>
+                    </section>
+                </section>
+        </footer>
+        <footer id="foot_navigate">
+            <section class="navigate_left container">
+                <section class="foot_nav">
+                    <h1><a href="#">小米</a></h1>
+                    <ul>
+                        <li><a href="#">小米商城 | </a></li>
+                        <li><a href="#">MIUI | </a></li>
+                        <li><a href="#">米聊 | </a></li>
+                        <li><a href="#">多看书城 | </a></li>
+                        <li><a href="#">小米路由器 | </a></li>
+                        <li><a href="#">视频电话 | </a></li>
+                        <li><a href="#">小米天猫店 | </a></li>
+                        <li><a href="#">小米淘宝直营店 | </a></li>
+                        <li><a href="#">小米网盟 | </a></li>
+                        <li><a href="#">小米移动 | </a></li>
+                        <li><a href="#">隐私政策 | </a></li>
+                        <li><a href="#">Select Region</a></li>
+                    </ul>
+                    <p>© mi.com 京ICP证110507号 京ICP备10046444号 京公网安备11010802020134号 京网文[2017]1530-131号
+                        违法和不良信息举报电话：185-0130-1238, 除特殊说明，所有数据均出自我司实验室测试
+                    </p>
+                </section>
+                <section class="adv">
+                    <a href="#"><img src="images/img_151.jpg" alt=""></a>
+                    <span class="trust sprite_map"></span>
+                    <ul>
+                        <li><a href="#">诚信网站</a></li>
+                        <li><a href="#">示范企业</a></li>
+                    </ul>
+                    <span class="trust sprite_map"></span>
+                    <ul>
+                        <li><a href="#">可信网站</a></li>
+                        <li><a href="#">信用评价</a></li>
+                    </ul>
+                    <span class="trust sprite_map"></span>
+                    <ul>
+                        <li><a href="#">网上交易</a></li>
+                        <li><a href="#">保障中心</a></li>
+                    </ul>
+                </section>
+            </section>
+            <section class="end">
+                <p><a href="#">小米科技</a>探索黑科技，小米为发烧而生 ！</p>
+            </section>
+        </footer>
+	</body>
+</html>

@@ -1,0 +1,293 @@
+/*.container{
+	width: 1228px;
+	height: 100px;
+	margin: 0 auto;
+}*/
+              /* banner 中部图片 */
+.addCart1{
+	border-top:1px solid #ccc;
+	width:1349px;
+	height:63px;
+}					
+.container {
+	width:1228px;
+	margin: 0 auto;
+}
+/*立即购买,加入购物车*/
+
+.addCart > h2{
+	float:left;
+	color:#212121;
+	line-height: 18px;
+	line-height:63px;
+}
+
+.addCart > p {
+	float:right;
+	width:118px;
+	height:28px;
+	line-height:28px;
+	margin-top:17px;
+	background:#ff6700;
+	text-align:center;
+}
+
+.addCart > ul {
+	float:right;
+}
+.addCart > p > a{
+		color:#fff;
+}
+
+.addCart > ul > li {
+	float:left;		
+	line-height: 63px;
+}
+.addCart > ul > li > a{
+	padding:0 8px;
+	border-right:1px solid #e2e2e2;
+}
+
+.addCart > ul > li:nth-child(5) a{
+	border-right:none;
+}
+/*滚动时*/
+.addCart2{
+	width:1349px;
+	background: #fff;
+	position:fixed;
+	top:0;
+	left:0px;
+	box-shadow: 0 0 15px #777;
+	z-index: 100;
+}
+.hed {
+	width: 100%;
+	height: 40px;
+	background: #333333;
+}
+
+.warp {
+	width: 1228px;
+	height: 40px;
+	background: #333333;
+	margin: 0 auto;
+}
+
+.warp a {
+	color: #b6aebb;
+	line-height: 40px;
+	margin: 0 6px;
+}
+
+.warp_right {
+	float: right;
+}
+
+.warp_right a {
+	margin: 0 6px;
+}
+
+.jlt {
+	background: url(../images/jing.png);
+}
+
+.warp a:hover {
+	color: #fff;
+}
+
+
+/* logo */
+
+.menu {
+	width: 100%;
+	height: 100px;
+}
+.menu02 {
+	width: 1228px;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+}
+.menu02>a{
+	
+}
+.posi{
+	position: relative;
+}
+.secondMenu{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:234px;
+	height:460px;
+	border:1px solid #ff6700;
+	padding:20px 0;
+	box-sizing: border-box;
+	background: #fff;
+	z-index: 10;
+	display:none;
+}
+.secondMenu li{
+	height:42px;
+	line-height:42px;
+}
+.secondMenu>li>span{
+	float:right;
+	font-size:14px;
+	margin-right:30px;
+}
+.secondMenu>li>a{
+	color:#424242;
+	font-size:14px;
+	margin-left:30px;
+}
+.secondMenued{
+	background:#ff6700;
+}
+.secondMenu .secondMenued>a{
+	color:#fff;
+	font-size:14px;
+	margin-left:30px;
+}
+.secondMenu>li>img{
+	position:absolute;
+	left:233px;
+	top:0;
+	display:none;
+}
+
+.logo {
+	display: flex;
+	width: 55px;
+	height: 100px;
+	align-items: center;
+}
+.menu02 > a{
+	width:127px;
+	height:100px;
+	display: inline-block;
+	margin:0 15px 0 35px;
+	text-align:center;
+	line-height: 100px;
+	font-size: 16px;
+}
+.nav {
+	width: 634px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 15px;
+	font-size: 16px;
+}
+
+.nav>a{
+	padding:39px 0;
+}
+.nav a:hover {
+	color: #e06310;
+}
+
+.sou {
+	width: 297px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+	float: left;
+}
+
+.sou input {
+	border: none;
+	height: 48px;
+	width: 243px;
+	border: 1px solid #dfdfdf;
+	border-right: none;
+}
+
+.sou .sou2 {
+	height: 52px;
+	width: 50px;
+	background: url(../images/mi_10.png) no-repeat center;
+	border: 1px solid #dfdfdf;
+	float: right;
+}
+
+/* banner 中部图片 */
+
+.hide_nav {
+	height: 230px;
+	position: absolute;
+	top:140px;
+	left: 0;
+	z-index: 50;
+	width: 100%;
+	border-top: 1px solid #e0e0e0;
+	background: #fff;
+	display: none;
+}
+#container1 {
+	width: 1226px;
+	position: relative;
+	margin:0 auto;
+	/*margin-right: auto;*/
+}
+
+.childer_list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	width: 1226px;
+	height: 201px;
+	margin: 0 auto;
+}
+
+.childer_list li {
+	height: 166px;
+	position: relative;
+	float: left;
+	width: 180px;
+	padding: 35px 12px 0;
+	text-align: center;
+}
+
+.childer_list li:before {
+	position: absolute;
+	left: 0;
+	top: 35px;
+	z-index: 1;
+	width: 1px;
+	height: 100px;
+	content: "";
+	background-color: #e0e0e0;
+}
+
+.childer_list li:nth-child(1):before {
+	height: 0;
+	/*去掉第一个before*/
+}
+
+.figuer {
+	width: 160px;
+	height: 110px;
+	margin: 0 auto 16px;
+	text-align: center;
+}
+
+.figuer img {
+	width: 160px;
+	height: 110px;
+}
+
+#title {
+	line-height: 20px;
+	text-align: center;
+}
+
+.price {
+	color: #ff6700;
+	line-height: 20px;
+	text-align: center;
+}
+

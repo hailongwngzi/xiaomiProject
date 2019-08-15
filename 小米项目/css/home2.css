@@ -1,0 +1,177 @@
+body,html{
+	width:100%;
+	height: 100%;
+	background: #F9F9F9; 
+}
+#wrap{
+	width: 100%;
+	height: 638px;
+}
+.header{
+	width: 854px;
+	height: 551px;
+	background: #fff;
+}
+.container{
+	width: 854px;
+	margin: 0 auto;
+}
+.milogo{
+	text-align: center;
+	padding-bottom: 40px;
+}
+.milogo a{
+	width: 49px;
+	height: 48px;
+}
+.title{
+	text-align: center;
+	height: 45px;
+}
+.title h2{
+	display: block;
+	color: #333;
+	font-size: 30px;
+}
+/*主体*/
+.main{
+	height: 385px;
+}
+.main-box{
+	width: 332px;
+	height: 306px;
+	padding: 30px 0;
+	margin: 0 auto;
+}
+.main-box h4{
+	color: #333;
+	font-size: 14px;
+	line-height: 20px;
+	padding-bottom: 5px;
+}
+.form{
+	width: 332px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	color: #555;
+	border: 1px solid #e8e8e8;
+    cursor: pointer;
+	vertical-align: middle;
+}
+.form p{
+	float: left;
+	padding-left: 14px;
+	width: 275px;
+	height: 40px;
+	border-right: 1px solid #e8e8e8;
+}
+.form i{
+	width: 16px;
+	height: 16px;
+	float: right;
+	background: url(https://account.xiaomi.com/static/res/0eeaaed/passport/oauth/images/icon_user.png);
+	margin: 11px 12px 0 11px;
+}
+#txt{
+	padding-top: 5px;
+	height: 20px;
+	padding-bottom: 15px;
+	line-height: 20px;
+	color: #666;
+}
+.number{
+	height: 20px;
+	padding-bottom: 5px;
+}
+.number-phone{
+    cursor: pointer;
+	height: 42px;
+	width: 332px;
+}
+.number-phone p{
+	display: block;
+	float: left;
+	width:72px;
+	height: 40px;
+	border: 1px solid #e8e8e8;
+	text-align: center;
+	line-height: 40px;
+}
+.number-phone p i {
+	width: 16px;
+	height: 16px;
+	float: right;
+	background: url(https://account.xiaomi.com/static/res/0eeaaed/passport/oauth/images/icon_user.png);
+	margin: 11px 12px 0 11px;
+}
+.number-name input{
+	width: 258px;
+	height: 42px;
+	/*color: #e8e8e8;*/
+	border:1px solid #e8e8e8;
+	border-left:0;
+	padding:10px;
+	box-sizing: border-box;
+}
+.sign{
+	width: 332px;
+	height: 42px;
+}
+#button{
+	/*display: block;*/
+	/*margin-top: 30px;*/
+	overflow: hidden;
+	width: 330px;
+	height: 42px;
+	/*margin: 0 auto;*/
+	text-align: center;
+	line-height: 42px;
+    border: 1px solid #e8e8e8;
+    cursor: pointer;
+    color: #fff;
+    background-color: #ff6700;
+}
+.show{
+	padding: 15px 0;
+	width: 100%x;
+	height: 20px;
+	color: #f66;
+}
+.main-f-box{
+    cursor: pointer;
+	margin-top: 20px;
+	display: block;
+	padding-top: 40px;
+	color: #666;
+	text-align: center;
+}
+.main-f-box a{
+	color: #333;
+	font-weight: bold;
+}
+/*底部*/
+.footer{
+	text-align: center;
+	height: 80px;
+}
+.footer ul{
+	height: 19px;
+	display: inline-block;
+}
+.footer ul li{
+	float: left;
+}
+.footer ul li a{
+	color: #9D9D9D;
+	padding: 10px;
+}
+.footer ul li a:hover{
+	color: #333;
+}
+.footer p{
+	color: #9D9D9D;
+}
+.footer p a{
+	color: #9D9D9D;
+}
